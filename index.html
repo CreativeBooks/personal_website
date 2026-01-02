@@ -10,14 +10,25 @@
     
     <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#home" onclick="showPage('home')">Home</a></li>
+            <li><a href="#about" onclick="showPage('about')">About</a></li>
+            <li><a href="#projects" onclick="showPage('projects')">Projects</a></li>
         </ul>
     </nav>
 
-    <div class="bar">
+    <div class="bar top">
         <div class="words">
+            <span>Hello</span>
+            <span>Hola</span>
+            <span>Bonjour</span>
+            <span>Hallo</span>
+            <span>Ciao</span>
+            <span>Здравствуйте</span>
+            <span>Olá</span>
+            <span>你好</span>
+            <span>こんにちは</span>
+            <span>नमस्ते</span>
+            <span>مرحبا</span>
             <span>Hello</span>
             <span>Hola</span>
             <span>Bonjour</span>
@@ -33,8 +44,47 @@
         </div>
     </div>
 
-    <div class="content">
-        <h1>Hello, my name is</h1>
+    <div class="content page" id="home">
+        <h1>Home</h1>
     </div>
+
+    <div class="content page" id="about" style="display:none;">
+        <h1>About</h1>
+    </div>
+
+    <div class="content page" id="projects" style="display:none;">
+        <h1>Projects</h1>
+        
+    </div>
+
+    <div class="bar bottom">
+        <div class="words">
+            <span>Hello</span>
+            <span>Hola</span>
+            <span>Bonjour</span>
+            <span>Hallo</span>
+            <span>Ciao</span>
+            <span>Здравствуйте</span>
+            <span>Olá</span>
+            <span>你好</span>
+            <span>こんにちは</span>
+            <span>नमस्ते</span>
+            <span>مرحبا</span>
+            <span>Hello</span>
+            <span>Hola</span>
+            <span>Bonjour</span>
+            <span>Hallo</span>
+            <span>Ciao</span>
+            <span>Здравствуйте</span>
+            <span>Olá</span>
+            <span>你好</span>
+            <span>こんにちは</span>
+            <span>नमस्ते</span>
+            <span>مرحبا</span>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
