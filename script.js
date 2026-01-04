@@ -12,7 +12,7 @@ function createStars() {
         star.style.left = Math.random() * 100 + '%';
         
         
-        star.style.animationDuration = (Math.random() * 5 + 3) + 's';
+        star.style.animationDuration = (Math.random() * 7 + 8) + 's';
         
         
         star.style.animationDelay = Math.random() * 5 + 's';
@@ -102,3 +102,17 @@ async function fetchLastFmTracks() {
 
 // Call when page loads or when About page is shown
 window.addEventListener('load', fetchLastFmTracks);
+
+document.addEventListener('mousemove', function(e) {
+    const trail = document.createElement('div');
+    trail.className = 'cursor-trail';
+
+    trail.style.left = e.clientX + 'px';
+    trail.style.top = e.clientY + 'px';
+
+    document.body.appendChild(trail);
+
+    setTimeout(() => {
+        trail.remove();
+    }, 800);
+});

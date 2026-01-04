@@ -313,3 +313,26 @@ li {
     font-size:13px;
     font-family:"Protest Revolution", cursive;
 }
+
+.cursor-trail {
+    position:fixed;
+    width:3px;
+    height:3px;
+    background:white;
+    border-radius:50%;
+    pointer-events: none;
+    z-index:999;
+    animation: fade-out 0.8s east-out forwards;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes fade-out {
+    0%{
+        opacity:1;
+        transform:scale(1);
+    }
+    100% {
+        opacity:0;
+        transform:scale(0);
+    }
+}
