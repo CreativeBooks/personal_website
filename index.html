@@ -12,9 +12,12 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="#home" onclick="showPage('home')">Home</a></li>
-            <li><a href="#about" onclick="showPage('about')">About</a></li>
-            <li><a href="#projects" onclick="showPage('projects')">Projects</a></li>
+            <li style="font-family:'Protest Revolution', cursive"><a href="#home" onclick="showPage('home')">Home</a>
+            </li>
+            <li style="font-family:'Protest Revolution', cursive"><a href="#about" onclick="showPage('about')">About</a>
+            </li>
+            <li style="font-family:'Protest Revolution', cursive"><a href="#projects"
+                    onclick="showPage('projects')">Projects</a></li>
         </ul>
     </nav>
 
@@ -48,10 +51,73 @@
 
     <div class="content page" id="home">
         <h1>Home</h1>
+        <h2>Hello! My name is</h2>
+        <h3>Prisha</h3>
+        <hr>
+        <h2>Some of my WIP's:</h2>
+        <div style="display: flex; justify-content: space-between; width:100%;">
+            <div style="width:50%">
+                <h3 style="font-size:30px;">Card Game</h3>
+                <img src="Untitled 3.PNG" alt="project-img" height="200px">
+                <img src="IMG_7737 1.png" alt="project-img" height="200px">
+                <img src="IMG_0159 1.png" alt="project-img" height="200px">
+                <h2 style="font-size:15px;">These are three out of 24</h2>
+                <h2 style="font-size:15px;">(Still working on it, the feather needs an upgrade)</h2>
+            </div>
+            <div style="width:50%;">
+                <h3 style="font-size:30px;">Tour the World</h3>
+                <img src="Screenshot 2026-01-03 at 10.16.50 PM.png" alt="project-img" height="200px">
+                <h2 style="font-size:15px; margin-right:5px;">I have created tooltips for all of the countries and I
+                    created an API that generates a more detailed webpage for each country.</h2>
+                <h2 style="font-size:15px; margin-right:5px;">Currently working on collecting data for the JSON file.
+                </h2>
+            </div>
+        </div>
+
     </div>
 
     <div class="content page" id="about" style="display:none;">
         <h1>About</h1>
+        <ol type="I">
+            <li>I am currently living in Charlotte, North Carolina and I am a sophomore.</li>
+            <li>Curren't learning JavaScript and how to create API's and I know HTML, CSS, and Python.</li>
+            <li>I am part of FRC (team 10107) and VEX V5 (team 17349B.)</li>
+            <li>I love to travel and as of Jan 2026 I have been to Canada, New York, Florida, New Jersey, Georgia,
+                Arizona, Nevada, Colorado, Tennessee, Lousianna, Virgina, Washington D.C., India, and South Carolina.
+            </li>
+            <div class="carousel">
+                <div class="carousel-image">
+                    <img src="travel photos/IMG_5230.HEIC" alt="Image 1" class="active">
+                    <img src="travel photos/IMG_5372.HEIC" alt="Image 2">
+                    <img src="travel photos/IMG_5541.heic" alt="Image 3">
+                    <img src="travel photos/IMG_5549.heic" alt="Image 4">
+                    <img src="travel photos/IMG_5701.HEIC" alt="Image 5">
+                    <img src="travel photos/IMG_5742.HEIC" alt="Image 6">
+                    <img src="travel photos/IMG_5780.heic" alt="Image 7">
+                    <img src="travel photos/IMG_6006.heic" alt="Image 8">
+                    <img src="travel photos/IMG_6258.HEIC" alt="Image 9">
+                    <img src="travel photos/IMG_6304.HEIC" alt="Image 10">
+                    <img src="travel photos/IMG_6431.HEIC" alt="Image 11">
+                    <img src="travel photos/IMG_6443.HEIC" alt="Image 12">
+                    <img src="travel photos/IMG_6472.HEIC" alt="Image 13">
+                    <img src="travel photos/IMG_6588.heic" alt="Image 14">
+                    <img src="travel photos/IMG_6606.heic" alt="Image 15">
+                    <img src="travel photos/IMG_6822.HEIC" alt="Image 16">
+                    <img src="travel photos/IMG_6857.HEIC" alt="Image 17">
+
+                </div>
+            </div>
+            <li>I have been a part of Hack Club since August 2025. I have been to Daydream and Parthenon. Currently, I
+                am organizing Camfire Charlotte and creating a card game for Aces.
+            </li>
+            <li>In my free time I read (Mystery, Fantasy, Sci-Fi), watch TV (C-dramas & K-Dramas), and listen to music
+                (K-POP, C-POP, Hindi). Some of my all time favorite book series is the Shadowhunter Chronicles and my
+                favorite show so far is Love in the Clouds.<br>
+                <img src="shadowhunter.png" alt="favorite book" height="200px;">
+                <img src="loveintheclouds.webp" alt="favorite show" height="200px;">
+            </li>
+            <li></li>
+        </ol>
     </div>
 
     <div class="content page" id="projects" style="display:none;">
@@ -59,6 +125,27 @@
         <div class="box-container">
             <div class="box">
 
+                <p>Book Recommendations</p>
+
+
+                <p>Demo: <a
+                        href="https://creativebooks.github.io/project-2/">https://creativebooks.github.io/project-2/</a>
+                </p>
+
+                <p>Repository: <a
+                        href="https://github.com/CreativeBooks/project-2.git">https://github.com/CreativeBooks/project-2.git</a>
+                </p>
+                <div class="carousel">
+                    <div class="carousel-image">
+                        <img src="1.png" alt="Image 1" class="active">
+                        <img src="2.png" alt="Image 2">
+                        <img src="3.png" alt="Image 3">
+                        <img src="4.png" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+
             </div>
             <div class="box">
 
@@ -81,33 +168,7 @@
         </div>
     </div>
 
-    <div class="bar bottom">
-        <div class="words">
-            <span>Hello</span>
-            <span>Hola</span>
-            <span>Bonjour</span>
-            <span>Hallo</span>
-            <span>Ciao</span>
-            <span>Здравствуйте</span>
-            <span>Olá</span>
-            <span>你好</span>
-            <span>こんにちは</span>
-            <span>नमस्ते</span>
-            <span>مرحبا</span>
-            <span>Hello</span>
-            <span>Hola</span>
-            <span>Bonjour</span>
-            <span>Hallo</span>
-            <span>Ciao</span>
-            <span>Здравствуйте</span>
-            <span>Olá</span>
-            <span>你好</span>
-            <span>こんにちは</span>
-            <span>नमस्ते</span>
-            <span>مرحبا</span>
 
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
